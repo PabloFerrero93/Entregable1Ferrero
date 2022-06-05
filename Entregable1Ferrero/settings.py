@@ -44,7 +44,7 @@ ROOT_URLCONF = 'Entregable1Ferrero.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['C:/Users/Pablo/Documents/Coderhouse/Python/Django/Entregable1Ferrero/Entregable1Ferrero/templates/Entregable1Ferrero/'],
+        'DIRS': ['C:/Users/Pablo/Documents/Coderhouse/Python/Django/Entregable1Ferrero/EntregableApp/templates/EntregableApp/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
