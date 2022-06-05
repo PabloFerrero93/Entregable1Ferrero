@@ -6,6 +6,5 @@ urlpatterns = [
     path('papa/', papa, name= "papa"),
     path('mama/', mama, name= "mama"),
     path('hermano/', hermano, name= "hermano"),
-
-
+    path('Hermanoformulario/', Hermanoformulario, name= "Hermanoformulario"),
 ]

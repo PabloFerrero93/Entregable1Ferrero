@@ -7,7 +7,7 @@ class Familia(models.Model):
         return self.apellido
 
 class Papa(models.Model):
-    nombre = models.CharField(max_length=30)
+    nombre = models.CharField(max_length=40)
     edad = models.IntegerField()
     nacimiento = models.DateField()
 
@@ -16,7 +16,7 @@ class Papa(models.Model):
    
 
 class Mama(models.Model):
-    nombre = models.CharField(max_length=30)
+    nombre = models.CharField(max_length=40)
     edad = models.IntegerField()
     nacimiento = models.DateField()
 
@@ -25,9 +25,10 @@ class Mama(models.Model):
     
 
 class Hermano(models.Model):
-    nombre = models.CharField(max_length=30)
+    nombre = models.CharField(max_length=40)
     edad = models.IntegerField()
     nacimiento = models.DateField()
 
     def __str__(self) -> str:
         return self.nombre
+
