@@ -1,0 +1,16 @@
+{% extends 'EntregableApp/base.html' %}
+{% load static %}
+{% block subtitulopag %}
+<p class="lead">Agregar un Papá</p>
+{% endblock %}
+{% block contenidomodificable %}
+<form action="{% url 'Papaformulario' %}" method="POST"> {% csrf_token %}
+    <h1>Ingrese los datos del Papá</h1>
+
+    <table> 
+        {{miFormulario.as_table}}
+    </table> 
+
+    <input type="submit" value="Enviar datos">
+</form>
+{% endblock %}

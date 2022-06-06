@@ -1,0 +1,19 @@
+{% extends 'EntregableApp/base.html' %}
+{% load static %}
+{% block subtitulopag %}
+<p class="lead">Resultado de su búsqueda</p>
+{% endblock %}
+{% block contenidomodificable %}
+<h1>Datos del hermano {{nombre}}</h1>
+{% if nombre %}
+<ul>
+    {% for i in filtrado %}
+    <li>{{i.nombre}}</li>
+    <li>{{i.edad}}</li>
+    <li>{{i.nacimiento}}</li>
+    <br>
+    {% endfor %}
+</ul>
+{% endif %}
+
+{% endblock %}
