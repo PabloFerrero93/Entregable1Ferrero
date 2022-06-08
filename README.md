@@ -17,4 +17,4 @@ En los tres formularios se solicita nombre, edad y fecha de nacimiento (se debe 
 y luego asigna a la BD correspondiente.
 
 Se accede de forma manual al buscador de hermanos. A traves de EntregableApp/Hermanobusqueda/. Se realiza la busqueda por nombre (Ejemplos que se encuentran en BD: Pablo, Mariano).
-Redirigue a "" donde se muestran todos los datos del hermano buscado
+Luego en boton buscar redirige con los resultados de la busqueda y todos los datos del hermano.
